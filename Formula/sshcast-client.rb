@@ -9,12 +9,12 @@ class SshcastClient < Formula
   on_macos do
     on_arm do
       url "https://github.com/sshcast/sshcast-client/releases/download/v#{version}/sshcast-client-macos-arm64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000" # auto-updated by CI on release
+      sha256 "ed7c67be26b0cfd429d65169415342a5c98170b647689b3f0309407646586941" # auto-updated by CI on release
     end
 
     on_intel do
       url "https://github.com/sshcast/sshcast-client/releases/download/v#{version}/sshcast-client-macos-x86_64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000" # auto-updated by CI on release
+      sha256 "18128620258268e4303a49d3b3c081dbaf961f1a005ae617766614ccca8dce05" # auto-updated by CI on release
     end
   end
 
