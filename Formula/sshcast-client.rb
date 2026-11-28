@@ -2,19 +2,19 @@ class SshcastClient < Formula
   desc "Roaming SSH Agent workstation client and native macOS menu bar tray"
   homepage "https://sshcast.net"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.1.0"
+  version "0.1.4"
 
   depends_on :macos
 
   on_macos do
     on_arm do
       url "https://github.com/sshcast/sshcast-client/releases/download/v#{version}/sshcast-client-macos-arm64.tar.gz"
-      sha256 "ed7c67be26b0cfd429d65169415342a5c98170b647689b3f0309407646586941" # auto-updated by CI on release
+      sha256 "2e7cfd0c37fa9d767641f7442886f62d29cc42e25ce10d6a6b5ca6dcb492ed1a" # auto-updated by CI on release
     end
 
     on_intel do
       url "https://github.com/sshcast/sshcast-client/releases/download/v#{version}/sshcast-client-macos-x86_64.tar.gz"
-      sha256 "18128620258268e4303a49d3b3c081dbaf961f1a005ae617766614ccca8dce05" # auto-updated by CI on release
+      sha256 "8810d00471bf71b3be2611354b5ce77b7d5039816897fe69e93420cba5f5f065" # auto-updated by CI on release
     end
   end
 
